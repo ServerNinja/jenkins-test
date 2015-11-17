@@ -1,10 +1,30 @@
 #global types to ignore
 *.swp
+*.log
 
 #Only get job configs and ignore other data
 !jobs/*
 jobs/*/*
 !jobs/*/config.xml
+
+#jenkins-jobs.sh is stored some place else in git
+jenkins-jobs*
+
+#Directories we don't want to keep
+secrets/
+workspace/
+userContent/
+updates/
+users/
+.cache/
+.java/
+.owner
+
+#Secrets that we don't need
+identity.key.enc
+tomcat.*
+secret.key*
+queue.xml.bak
 
 #Ignore expanded plugins folders because we only want jpi files
 #plugins/*/*
