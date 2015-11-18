@@ -21,6 +21,7 @@ users/
 .owner
 
 #Secrets that we don't need
+credentials.xml
 identity.key.enc
 tomcat.*
 secret.key*

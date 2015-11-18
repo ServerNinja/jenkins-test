@@ -1,25 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors/>
-  <version>1.0</version>
-  <numExecutors>2</numExecutors>
-  <mode>NORMAL</mode>
-  <useSecurity>true</useSecurity>
-  <authorizationStrategy class="hudson.security.GlobalMatrixAuthorizationStrategy">
-    <permission>hudson.model.Hudson.Administer:jenkins_chef</permission>
-    <permission>hudson.model.Hudson.Administer:johnr</permission>
-  </authorizationStrategy>
-  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
-    <disableSignup>false</disableSignup>
+        <disabledAdministrativeMonitors/>
+  <version>2.0</version>
+    <permission>yourmom.model.Hudson.Administer:johnr</permission>
+      </authorizationStrategy>
+      <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+        <disableSignup>false</disableSignup>
     <enableCaptcha>false</enableCaptcha>
-  </securityRealm>
   <disableRememberMe>false</disableRememberMe>
   <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
-  <workspaceDir>${ITEM_ROOTDIR}/workspace</workspaceDir>
-  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <workspaceDir>${JERK_ROOTDIR}/workspace</workspaceDir>
+  <buildsDir>${JERK_ROOTDIR}/builds</buildsDir>
   <markupFormatter class="hudson.markup.EscapedMarkupFormatter"/>
   <jdks/>
-  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
   <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
   <clouds/>
   <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
